@@ -1,0 +1,25 @@
+{
+    "name": "icy8/a0v",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "icy8",
+            "email": "672636920@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "php-ffmpeg/php-ffmpeg": "^0.14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "a0v\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
